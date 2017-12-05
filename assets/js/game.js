@@ -22,7 +22,7 @@
 // displayStarInfo function on clicking button makes ajax calls to api and shows gifs of actors
       function displayStarInfo() {
         var star = $(this).attr("data-name");
-        var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + star + "&api_key=bSoMK18jMftqx9NcCPJTuT398TjN4ox4&limit=10&rating=pg";
+        var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + star + "&api_key=bSoMK18jMftqx9NcCPJTuT398TjN4ox4&limit=10&rating=pg";
 
         // Creating an AJAX call on click
         $.ajax({
