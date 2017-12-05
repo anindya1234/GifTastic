@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GifTastic</title>
+
+    <!-- Added link to the jQuery Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Added a link to Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 id="jumbo" class="display-4 text-center">Star Gif</h1>
+    <br>
+    <p id= "jumbo1" class="lead text-center">Click on button below to generate 10 gifs or enter a new actor name.</p>
+  </div>
+</div>
+       
+<div class="container">
+
+
+
+        <!-- Rendered Buttons will get Dumped Here  -->
+      <div id="buttons-view"></div> 
+        
+      <br> 
+        
+      <div class="row .input"><br> 
+             <div class="col-md-8"> 
+              
+                <!-- Gifs will Get Dumped Dere -->
+              <div id="star-view"></div> 
+
+             </div>
+          
+          
+              <div class="col-md-4"> 
+              <form id="star-form"> <!-- form Here  -->
+                <label class="lbl">Enter an actor's name</label>
+                <input type="text" id="star-input">
+                <button type="button" id="add-star" class="btn btn-success submit-button" name="submit" type="submit">Submit</button>
+
+              </form>
+              </div>
+
+      </div>
+</div>
+<script type="text/javascript" src="assets/js/game.js"></script>
+</body>
+</html>

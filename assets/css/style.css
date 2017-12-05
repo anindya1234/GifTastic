@@ -1,0 +1,77 @@
+button,
+    div,
+    form,
+     {
+      margin: 10px;
+    }
+
+body{
+	background-image: url("../Images/img1.png");
+}
+
+.jumbotron{
+	height:120px;
+	font-size: 5px;
+	background-color: green ;
+	color:white;
+	padding-top: 8px;
+	padding-bottom: 10px;
+	width:100%;
+	margin-right: 0px;
+}
+
+button{
+	background-color: green;
+	color:white;
+	border: 0px;
+	margin-top: 10px;
+}    
+.submit-button{
+   margin-top: -4px;
+   font-weight: bold;
+}
+button:hover, img:hover {  
+	border:2px solid green;  box-shadow: 0 0 10px #008000;  -webkit-box-shadow: 0 0 10px #008000;
+	-moz-box-shadow: 0 0 10px #008000;  -o-box-shadow: 0 0 10px #008000;  -ms-box-shadow: 0 0 10px #008000;}
+
+.star{
+		margin-right: 10px;
+		font-weight: bold;
+	}
+
+#star-view{
+	 display: flex;
+	  flex-flow: row wrap;
+
+}
+.image,.rate{
+	margin-right: 10px;
+
+}
+.rate,.lbl{
+	color: green;
+	}
+.lbl{
+	color: green;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+
+
+.image{
+width:125px;
+height:125px;
+}
+
+@media only screen and (max-width: 770px) {
+
+#jumbo1{
+    font-size: 15px;
+
+	}
+	#jumbo{
+		font-size: 35px;
+	}
+	
+}
